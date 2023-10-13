@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #1a554b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 60vh;
+    width: 550px;
+    background-color: #000;
+    border: 5px solid #33ffd8;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 5px black;
+    overflow: hidden;
+}
+.container #main{
+    height: 10vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 10vh;
+}
+.container form{
+    height: 35vh;
+    width: 100%;
+    background-color: #292828;
+    line-height: 45vh;
+    text-align: center;
+}
+.container form input{
+    width: 130px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #33ffd8;
+    color: #33ffd8;
+    background-color: transparent;
+    font-size: 60px;
+    text-align: center;
+}
+.container form input::placeholder{
+    font-size: 20px;
+    color: #33ffd8;
+    font-size: 700;
+}
+/* //w3school  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn button{
+ padding: 10px 10px;
+ font-size: 25px;
+ background-color: #292828;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+ cursor: pointer;
+ transition: 0.5s;
+}
+.btn button:hover{
+background-color: #33ffd8;
+
+}
